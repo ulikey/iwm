@@ -1,0 +1,51 @@
+spring:
+  profiles:
+    active: dev
+  # gateWay分发路由
+  cloud:
+    gateway:
+      routes:
+        # auth-api
+        - id: auth-api
+          uri: lb://auth-api
+          predicates:
+            - Path=/auth/**
+          filters:
+            # 验证码处理
+            - CacheRequestFilter
+            - ValidateCodeFilter
+            # 路由地址处理
+            - StripPrefix=1
+        # view-api
+        - id: view-api
+          uri: lb://view-api
+          predicates:
+            - Path=/view-api/**
+          filters:
+            - StripPrefix=1
+        # mail-api
+        - id: mail-api
+          uri: lb://mail-api
+          predicates:
+            - Path=/mail-api/**
+          filters:
+            - StripPrefix=1
+    # sentinel监控中心
+    sentinel:
+      transport:
+        # 控制台地址
+        dashboard: 127.0.0.1:8080
+# 自定义-网关安全配置
+security:
+  # 验证码
+  captcha:
+    enabled: true
+    type: math
+  # 通过白名单
+  ignore:
+    whites:
+      - /auth/logout
+      - /auth/login
+      - /auth/register
+      - /*/v3/api-docs
+      - /csrf

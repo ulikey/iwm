@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: dev
+  redis:
+    host: 39.105.228.32
+    port: 6379
+    password: O.o.0.$.likey073520.O

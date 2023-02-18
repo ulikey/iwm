@@ -1,0 +1,15 @@
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/config/SpringDocConfig.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/config/CaptchaConfig.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/config/KaptchaTextCreator.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/config/RouterFunctionConfiguration.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/service/impl/ValidateCodeServiceImpl.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/handler/GatewayExceptionHandler.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/filter/ValidateCodeFilter.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/filter/SwaggerGlobalFilter.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/filter/CacheRequestFilter.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/config/properties/IgnoreWhiteProperties.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/GatewayApplication.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/service/ValidateCodeService.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/config/properties/CaptchaProperties.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/filter/AuthFilter.java
+/Users/likey/Desktop/work_picc/w-mail/cloud/gateway/src/main/java/com/iw/gateway/handler/ValidateCodeHandler.java

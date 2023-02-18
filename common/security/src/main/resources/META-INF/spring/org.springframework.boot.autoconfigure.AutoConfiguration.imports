@@ -1,0 +1,5 @@
+com.iw.common.security.service.TokenService
+com.iw.common.security.config.WebMvcConfig
+com.iw.common.security.aspect.PreAuthorizeAspect
+com.iw.common.security.aspect.InnerAuthAspect
+com.iw.common.security.handler.GlobalExceptionHandler

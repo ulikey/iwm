@@ -1,0 +1,5 @@
+com.iw.common.core.utils.SpringUtils
+com.iw.common.core.service.RedisFallbackFactory
+com.iw.common.core.service.RemoteUserFallbackFactory
+com.iw.common.core.service.RemoteLogFallbackFactory
+com.iw.common.core.service.RemoteFileFallbackFactory

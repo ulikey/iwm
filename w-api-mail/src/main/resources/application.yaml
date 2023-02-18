@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+  # 邮箱设置
+  mail:
+    port: 465
+    host: smtp.qq.com
+    username: xxxxxxxx@qq.com
+    password: 1234567811
+    properties:
+      mail:
+        auth: true
+        transport:
+          protocol: smtp
+        debug: true
+        smtp:
+          ssl:
+            enable: true
+          starttls:
+            enable: false
+            required: false

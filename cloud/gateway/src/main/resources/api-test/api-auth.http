@@ -1,0 +1,33 @@
+###
+# image code
+GET http://localhost:7777/code
+Accept: text/plain
+Content-Type: text/plain
+
+###
+# login
+# 步骤：（验证码 -> 登录 -> 测试其他接口）
+POST http://localhost:7777/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "uuid": "95677caebc1a4f8080089529acd7cd84",
+  "code": "9",
+  "username": "admin",
+  "password": "123456"
+}
+
+
+###
+# /test/info：选取了登录接口返回的token，模拟页面已经登录完成
+GET http://localhost:7777/view-api/test/info
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxMDAxLCJ1c2VyX2tleSI6IjZjNDQ1YjhiLWJkOTgtNDVlNi1iOGJiLTU2YWNkZjBjMTc2MyIsInVzZXJuYW1lIjoiYWRtaW4ifQ.13-omm44Ey8rfQcGBggalYSfof8M5of0Da5hF7Da04OVo5QA5xNTTdtlRteMGBtv4ywozTZZr6vA_tpM4-jl2w
+
+
+###
+# activiti 工作流 （2022-11-16/17/18晚间验证）
+
+
