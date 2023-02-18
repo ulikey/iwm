@@ -72,11 +72,11 @@
         </dependency>
 
         <!-- modules swagger -->
-        <dependency>
-            <groupId>com.iw.common.swagger</groupId>
-            <artifactId>iw-common-swagger</artifactId>
-            <version>1.0.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.iw.common.swagger</groupId>-->
+<!--            <artifactId>iw-common-swagger</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
         <!-- modules security -->
         <dependency>
             <groupId>com.iw.common.security</groupId>
