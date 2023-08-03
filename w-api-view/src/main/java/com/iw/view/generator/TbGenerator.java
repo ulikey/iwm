@@ -13,9 +13,9 @@ import java.util.Collections;
 public class TbGenerator {
 
     public static void main(String[] args) {
-        FastAutoGenerator.create("jdbc:mysql://39.105.228.32:3306/db-iw",
-                        "likey",
-                        "likeyLi73+!")
+        FastAutoGenerator.create("jdbc:mysql://xx:3306/db-iw",
+                        "xx",
+                        "xx")
                 .globalConfig(builder -> {
                     builder.author("likey")     // 设置作者
                             .fileOverride()     // 覆盖已生成文件
